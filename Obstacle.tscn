@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://structure_wall.png" type="Texture" id=1]
+
+[node name="Obstacle" type="Sprite"]
+modulate = Color( 0.0196078, 0.0235294, 0.203922, 1 )
+texture = ExtResource( 1 )
+centered = false
+region_rect = Rect2( 512, 64, 64, 64 )
